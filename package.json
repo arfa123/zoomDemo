@@ -1,7 +1,6 @@
 {
   "name": "react-video-sdk-demo",
   "version": "1.1.5",
-  "homepage": "https://arfa123.github.io/zoomDemo",
   "private": true,
   "dependencies": {
     "@ant-design/icons": "^4.6.2",

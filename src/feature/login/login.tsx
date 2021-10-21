@@ -12,7 +12,7 @@ const Login = (props: LoginProps) => {
 	// const [ secretKey, setSecretKey ] = useState("");
 	const [ roomName, setRoomName ] = useState("session_name");
 	const [ userName, setUserName ] = useState("web123");
-	const [ signature, setSignature ] = useState("eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHBfa2V5IjoidHE5QjJnU0pJMXp5Q2FyYXdGMWlkcjdDc2R6RTNNUURsbXVqIiwidmVyc2lvbiI6MSwidXNlcl9pZGVudGl0eSI6IndlYjEyMyIsInRwYyI6InNlc3Npb25fbmFtZSIsImlhdCI6MTYzNDcxMDIyMiwiZXhwIjoxNjM0Nzk2NTQzfQ.KFrIHP6oqavPkUs8j4r5TL3wYimtlGY0DF9FqXi2TBQ");
+	const [ signature, setSignature ] = useState("eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHBfa2V5IjoidHE5QjJnU0pJMXp5Q2FyYXdGMWlkcjdDc2R6RTNNUURsbXVqIiwidmVyc2lvbiI6MSwidXNlcl9pZGVudGl0eSI6IndlYjEyMyIsInRwYyI6InNlc3Npb25fbmFtZSIsImlhdCI6MTYzNDc5NzQxNiwiZXhwIjoxNjM0OTcwMjE2fQ.0HGkuTGwDeBAFUy82LolxN_rGXpv7_phZeuBfeI1n4M");
 	const history = useHistory();
 
 	useEffect(() => {
